@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="As a user" skipped="0" tests="1" time="92.81" timestamp="2021-05-10 12:18:53"><testcase name="Buy book successfully"><failure message="&#10;Expected: &quot;945.00&quot;&#10;     but: was &quot;₹945.00&quot;" type="java.lang.AssertionError">
+Expected: "945.00"
+     but: was "₹945.00"</failure><system-err>
+Expected: "945.00"
+     but: was "₹945.00"&#13;
+in.automationtesting.practice.testing.stepdefinitions.BuyBookStepDefinition.validateAmountAndPrice(BuyBookStepDefinition.java:48)&#13;
+✽.validate amount and price(src/test/resources/in.automationtesting.practice.testing.features/buy_book.feature:12)&#13;
+</system-err></testcase></testsuite>
