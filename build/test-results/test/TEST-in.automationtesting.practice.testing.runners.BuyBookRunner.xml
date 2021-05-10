@@ -2,21 +2,9 @@
 <testsuite name="in.automationtesting.practice.testing.runners.BuyBookRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-J85MNPV" time="0.0">
   <properties/>
   <system-out><![CDATA[
-?[31mFailed scenarios:?[0m
-?[31msrc/test/resources/in.automationtesting.practice.testing.features/buy_book.feature:9 ?[0m# Buy book successfully
-
-1 Scenarios (?[31m1 failed?[0m)
-3 Steps (?[31m1 failed?[0m, ?[32m2 passed?[0m)
-1m35,381s
-
-java.lang.AssertionError: 
-Expected: "945.00"
-     but: was "?945.00"
-	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
-	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
-	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
-	at in.automationtesting.practice.testing.stepdefinitions.BuyBookStepDefinition.validateAmountAndPrice(BuyBookStepDefinition.java:48)
-	at ?.validate amount and price(src/test/resources/in.automationtesting.practice.testing.features/buy_book.feature:12)
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+2m26,522s
 
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 

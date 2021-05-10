@@ -42,9 +42,8 @@ public class BuyBookStepDefinition {
     userAutomation.attemptsTo(ProceedCheckOutTask.proceedCheckOutTask());
     }
 
-    @Then("^validate amount and price$")
-    public void validateAmountAndPrice() {
-    String textValid = AMOUNT.getValue();
-    userAutomation.should(GivenWhenThen.seeThat(VerifyAmountQuestion.verifyAmountQuestion(), Matchers.equalTo(textValid)));
+    @Then("^validate amount total (.*)$")
+    public void validateAmountTotal(String amount) {
+    userAutomation.should(GivenWhenThen.seeThat(VerifyAmountQuestion.verifyAmountQuestion(), Matchers.equalTo(amount)));
     }
 }

@@ -8,8 +8,8 @@ public enum CheckOutEnum {
     COUNTRY("COLOMBIA"),
     ADDRESS("CALLE 100"),
     CITY("BOGOTA"),
-    COUNTY("ENGATIVA"),
-    AMOUNT("945.00");
+    COUNTY("ENGATIVA");
+   // AMOUNT("₹945.00");
 
     private String value;
 

@@ -9,7 +9,7 @@
   Scenario: Buy book successfully
       Given the user opens browser
       When the user buys a book
-      Then validate amount and price
+      Then validate amount total ₹945.00
 
 
 
