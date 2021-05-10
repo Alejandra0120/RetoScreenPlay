@@ -21,7 +21,7 @@ public class AutomationTestingCheckOutPage {
     public static final Target INP_COUNTY = Target.the("ENTER A COUNTY")
             .located(By.id("billing_state"));
     public static final Target LBL_TOTAL = Target.the("TOTAL")
-            .located(By.xpath("(//span[@class='woocommerce-Price-amount amount'])[4][not(@class='woocommerce-Price-currencySymbol')]"));
+            .located(By.xpath("(//span[@class='woocommerce-Price-amount amount'])[4]"));
 
 
 
