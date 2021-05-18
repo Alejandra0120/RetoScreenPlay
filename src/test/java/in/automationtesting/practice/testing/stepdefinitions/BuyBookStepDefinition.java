@@ -17,11 +17,13 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 import net.thucydides.core.annotations.Managed;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.WebDriver;
-import static in.automationtesting.practice.testing.utils.enums.CheckOutEnum.*;
+
 import static in.automationtesting.practice.testing.questions.VerifyAmountQuestion.*;
+import static in.automationtesting.practice.testing.utils.enums.CheckOutEnum.*;
 
 public class BuyBookStepDefinition {
     @Managed(driver = "chrome")
+   // private WebDriver webDriver;
     private WebDriver webDriver;
     private Actor userAutomation = Actor.named("userAutomation");
 

@@ -44,6 +44,7 @@ dependencies {
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.0.80'
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
     compile fileTree(dir: 'lib', include: '*.jar')
+
 }
 
 test {
